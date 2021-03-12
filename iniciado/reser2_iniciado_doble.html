@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Campiña</title>
+    <link rel="stylesheet" href="../CSS/estilos.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2? family = Balsamiq + Sans & display = swap" rel="hoja de estilo">
+    <link href="https://fonts.googleapis.com/css2? family = Noto + Serif & display = swap" rel="hoja de estilo">
+    <link rel="icon" type="image/png" href="images/ico.png">
+</head>
+
+<body>
+
+    <header class="hero">
+
+        <div class="container-header">
+            <div class="title-container">
+                <h4 class="title-container">Manta, Ecuador</h4>
+            </div>
+            <div class="LOGO-Empresa">
+                <a href="index.html"><img src="../images/Recurso 8logo-campiña.png" alt="La Campiña LOGO"
+                        height="40"></a>
+            </div>
+
+            <div class="bot-cerrar">
+                <a href="../reserva.html" class="ico-cerrar" ><i class="fa fa-sign-out" ></i> </a>
+                              
+            </div>
+        </div>
+
+        <nav class="nav-container">
+            <a href="index_iniciado.html" id="page_principal" class="nav__items ">Hotel La Campiña </a>
+            <a href="habi_iniciado.html" id="page_habitaciones" class="nav__items">Habitaciones</a>
+            <a href="reser_iniciado.html" id="page_reserva" class="nav__items page_actual">Reserva</a>
+            <a href="servi_iniciado.html" id="page_servicios" class="nav__items">Servicios</a>
+            <a href="contactenos_iniciado.html" id="page_contactenos" class="nav__items">Contáctenos</a>
+        </nav>
+    </header>
+    <main>
+        <div class="contenedor-slider">
+            <!--imagen inicial-->
+            <img src="../images/4-estrellas.jpg" alt="FONDO" width="1520" height="600">
+
+        </div>
+
+        <div class="container-main">
+
+
+            <!-- Info de ubicacion-->
+            <h3 class="seccion"> INFORMACIÓN DEL HUÉSPED</h3>
+            <div class="sec-circulo">
+                <div class="circulos">
+                    <a href="reser_iniciado.html"> <img src="../images/regre.png" alt="Regresar" class="regre"></a>
+                </div>
+
+                <div class="circulos">
+                    <div class="circle">
+                        <p class="texto">1</p>
+                        <p>Habitaciones</p>
+                    </div>
+                </div>
+
+                <div class="circulos">
+                    <div class="circle">
+                        <p class="texto">2</p>
+                        <p>Información del huesped</p>
+                    </div>
+                </div>
+
+                <div class="circulos">
+                    <div class="circle">
+                        <p class="texto">3</p>
+                        <p>Revisar</p>
+                    </div>
+                </div>
+
+                <div class="circulos">
+                    <div class="circle">
+                        <p class="texto">4</p>
+                        <p>Confirmación</p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+
+
+            <div class="contener1">
+                <h4 class="sub"> INFORMACIÓN DE CONTACTO</h4>
+                <section class="form">
+                    <input class="register" type="text" id="Nombre" placeholder="Nombre">
+                    <input class="register" type="text" id="Apellidos" placeholder="Apellidos">
+                    <input class="register" type="text" id="Telefono" placeholder="Teléfono" maxlength="10">
+                    <input class="register" type="email" id="Correo" placeholder="Dirección de correo electrónico">
+                </section>
+                <h5 class="sub"> INFORMACIÓN DE PAGO</h5>
+                <div class="pag">
+                    <a class="boton5" href="#">
+                        <p>Método de pago</p>
+                        <p>Tarjeta de crédito/débito</p>
+                    </a>
+                </div>
+                <!--INFO TARJETA-->
+                <form action="" id="formulario-tarjet" class="formulario-tarjet">
+                    <div class="metod-pago">
+                        <img src="../images/payment-method.jpg" alt="" width="20%">
+                    </div>
+                    <div class="tarjet">
+                        <input class="tarj" type="text" id="inputNumero" maxlength="19" autocomplete="off"
+                            placeholder="Número de tarjeta">
+                    </div>
+                    <div class="tarjet">
+                        <input class="tarj" type="text" id="inputNombre" autocomplete="off"
+                            placeholder="Nombre del titular de tarjeta">
+                    </div>
+
+                    <div class="flexbox">
+                        <div class="expira">
+                            <div class="flexbox">
+                                <div class="grupo-select">
+                                    <select name="Mes" id="selectmes">
+                                        <option disabled selected>Mes</option>
+                                    </select>
+                                </div>
+                                <div class="grupo-select">
+                                    <select name="Año" id="selectAño">
+                                        <option disabled selected>Año</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cvv">
+                            <input type="text" id="inputCCV" maxlength="3" placeholder="CVV">
+                        </div>
+                    </div>
+                    <a class="btn-tarjet" href="reser3_iniciado_doble.html"> CONTINUAR </a>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                </form>
+            </div>
+        </div>
+
+
+        </div>
+
+
+    </main>
+
+
+    <footer class="footer">
+        <div class="container-footer__grid">
+            <div class="footer-detalle">
+                <div class="contactos">
+                    <h2 class="subtitle">Contáctanos</h2>
+                    <h4 class="subtitle1">Hotel la Campiña</h3>
+                        <p class="description_contactos">AV. Pradera y Calle 2, Adjunto a el Palmar 3era. Etapa <br>
+                            Manta, Ecuador</p>
+                        <p class="description_contactos">Telefono: 0987654321</p>
+                        <p class="description_contactos">Manta-130068</p>
+                </div>
+                <div class="ayudanos">
+                    <h2 class="subtitle">Ayúdanos a Mejorar <br></h2>
+                    <form>
+                        <div class="fila-form">
+                            <label>Correo Electrónico:</label>
+                            <input class="box_text" type="mail" name="correo-electronico" id="mail-mensaje"
+                                placeholder="Ingresa Correo">
+                        </div>
+                        <div class="fila-form">
+                            <label>Mensaje/Comentario :</label>
+                            <textarea class="box_text" name="mensaje-user" rows="5" cols="25"
+                                placeholder="Escribe aquí tus comentarios"></textarea>
+                        </div>
+                        <div class="fila-boton">
+                            <button class="send-msm">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <hr>
+            <div class="creditos">
+                <div class="columna">
+                    <p>Hotel la Campiña | Cuarto "A"</p>
+                </div>
+                <div class="columna">
+                    <a class="icon-face" href="https://www.facebook.com/armando.lucas.3998/"><i
+                            class="fab fa-facebook"></i></a>
+                    <a class="icon-instagram" href="https://www.instagram.com/sf_leo._.ff/"><i
+                            class="fab fa-instagram"></i></a>
+                    <a class="icon-twitter" href="https://twitter.com/LeonelAnchundi7"><i
+                            class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+    <script src="https://kit.fontawesome.com/47dd6f5b96.js" crossorigin="anonymous"></script>
+
+
+</body>
+<script src="../JS/tarjet.js"></script>
+
+</html>

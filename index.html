@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Campiña</title>
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2? family = Balsamiq + Sans & display = swap" rel="hoja de estilo">
+    <link href="https://fonts.googleapis.com/css2? family = Noto + Serif & display = swap" rel="hoja de estilo">
+    <link rel="icon" type="image/png" href="images/ico.png">
+</head>
+
+<body>
+    <div class="emer" id="emerge">
+        <div class="colum" id="cerrar">
+            <a href="javascript:cerrar()">
+                <i class="fas fa-times"></i>
+            </a>
+        </div>
+        <h1>Inicio de Sección</h1>
+        <h2>Inicie seccion ingresando usuario y contraseña</h2>
+        <input type="text" placeholder="&#128100; Nombre de Usuario" name="usuario">
+        <input type="password" placeholder="&#9919; Contraseña" name="clave">
+        <a class="ini" id="inicio_sesion" href="iniciado/index_iniciado.html">Iniciar Sesión</a> <br>
+        <a href="javascript:olvido_con()" class="Olvido">¿Olvido el nombre de su usuario o contraseña?</a>
+        <hr>
+        <img src="images/Recurso 8logo-campiña.png" alt="Logo campiña" height="40">
+
+    </div>
+
+    <div class="olvido-contra" id="con">
+        <div class="colum" id="cerrar">
+            <a href="javascript:cerrar_con()">
+                <i class="fas fa-times"></i>
+            </a>
+        </div>
+       <h2>SOLICITAR UNA NUEVA CONTRASEÑA</h2>
+       <br>
+       <div class="soli">
+           <br>
+           <p>Para restablecer la contraseña, intrduzca su direccion de Correo Electrónico o nombre de usuario asociado a su cuenta</p>
+           <input class="box_text" type="mail" name="correo-electronico" id="mail-mensaje"
+            placeholder="Ingresa Correo">
+            <div class="bot">
+                <a href="javascript:cerrar_con()">Cancelar</a>
+                <a href="javascript:cerrar_con()">Enviar</a>
+            </div>
+            <br>
+
+
+       </div>
+
+    </div>
+
+    <div class="emer-registro" id="registro">
+
+        <div class="colum" id="cerrar">
+            <a href="javascript:cerrar_registro()">
+                <i class="fas fa-times"></i>
+            </a>
+        </div>
+
+        <img src="images/Recurso 8logo-campiña.png" alt="Logo campiña" height="40">
+        <hr>
+        <h2>Su Perfil</h2>
+        <div class="info">
+            <h2 class="Info-perfil">Informacion del Perfil</h2>
+            <div class="info-personal">
+                <input type="text" placeholder="Nombre" name="Nombre-registro">
+                <input type="text" placeholder="Apellido" name="Apellido-registro">
+            </div>
+
+            <input type="text" placeholder="Telefono" name="Telefono-registro">
+            <input type="email" placeholder="correo" name="Correo-registro">
+
+        </div>
+
+        <div class="contra">
+            <input type="password" placeholder="Contraseña" name="Contraseña-registro">
+            <input type="password" placeholder="Confirmar Contraseña" name="Confir-registro">
+        </div>
+
+        <div class="botones-re">
+            <a href="javascript:cerrar_registro()" id="Cancelar-registro">Cancelar</a>
+            <a href="javascript:cerrar_registro()" id="Crear-registro">Crear</a>
+        </div>
+
+
+    </div>
+
+
+    <header class="hero">
+
+        <div class="container-header">
+            <div class="title-container">
+                <h4 class="title-container">Manta, Ecuador</h4>
+            </div>
+            <div class="LOGO-Empresa">
+                <a href="#"><img src="images/Recurso 8logo-campiña.png" alt="La Campiña LOGO" height="40"></a>
+            </div>
+
+            <div class="botones">
+                <a id="inicio_sesion" href="javascript:iniciar()">Iniciar Sesión</a>
+                <a id="new_cuenta" href="javascript:registrar()">Crear Cuenta</a>
+            </div>
+        </div>
+
+        <nav class="nav-container">
+            <a href="#" id="page_principal" class="nav__items page_actual">Hotel La Campiña </a>
+            <a href="habitaciones.html" id="page_habitaciones" class="nav__items">Habitaciones</a>
+            <a href="reserva.html" id="page_reserva" class="nav__items">Reserva</a>
+            <a href="servicio.html" id="page_servicios" class="nav__items">Servicios</a>
+            <a href="contactenos.html" id="page_contactenos" class="nav__items">Contáctenos</a>
+        </nav>
+
+    </header>
+
+    <main>
+        <div class="contenedor-slider">
+            <!--foto principal-->
+            <img src="images/Hotel.jpg" alt="Hotel" width="100%" height="600">
+
+        </div>
+
+        <div class="container-main">
+            <section class="presentacion container">
+                <img src="images/Hotel2.jpg" alt="Hotel2" class="presentacion_hotel2">
+                <h2 class="subtitle">
+                    Experiencia La Campiña
+                </h2>
+                <p class="presentacion__copy"> La Mejor experiencia de relajacion la puedes disfrutar en <strong> Manta
+                    </strong> <br> y que mejor opcion que Hotel<strong> LA CAMPIÑA</strong>
+                </p>
+            </section>
+            <section class="Campiña">
+                <div class="container">
+                    <h2 class="subtitle"> La Campiña</h2>
+                    <div class="Campiña__grid">
+
+                        <article class="Campiña__item">
+                            <img src="images/Comida.jpg" alt="Comida" class="Campiña__img">
+                            <div class="Campiña__hover">
+                                <h1>La mejor comida</h1>
+                                <a href="servi_cocina.html" id="ver"> Ver mas</a>
+
+                            </div>
+                        </article>
+
+                        <article class="Campiña__item">
+                            <img src="images/Habitaciones.jpg" alt="Comida" class="Campiña__img">
+                            <div class="Campiña__hover">
+                                <h1>Habitaciones de todo tipo</h1>
+                                <a href="habitaciones.html" id="ver"> Ver mas</a>
+
+                            </div>
+                        </article>
+
+                        <article class="Campiña__item">
+                            <img src="images/Recepcionista.jpg" alt="Comida" class="Campiña__img">
+                            <div class="Campiña__hover">
+                                <h1>Servicios de primera</h1>
+                                <a href="servicio.html" id="ver"> Ver mas</a>
+
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container-footer__grid">
+            <div class="footer-detalle">
+                <div class="contactos">
+                    <h2 class="subtitle">Contáctanos</h2>
+                    <h4 class="subtitle1">Hotel la Campiña</h3>
+                        <p class="description_contactos">AV. Pradera y Calle 2, Adjunto a el Palmar 3era. Etapa <br>
+                            Manta, Ecuador</p>
+                        <p class="description_contactos">Telefono: 0987654321</p>
+                        <p class="description_contactos">Manta-130068</p>
+                </div>
+                <div class="ayudanos">
+                    <h2 class="subtitle">Ayúdanos a Mejorar <br></h2>
+                    <form>
+                        <div class="fila-form">
+                            <label>Correo Electrónico:</label>
+                            <input class="box_text" type="mail" name="correo-electronico" id="mail-mensaje"
+                                placeholder="Ingresa Correo">
+                        </div>
+                        <div class="fila-form">
+                            <label>Mensaje/Comentario :</label>
+                            <textarea class="box_text" name="mensaje-user" rows="5" cols="25"
+                                placeholder="Escribe aquí tus comentarios"></textarea>
+                        </div>
+                        <div class="fila-boton">
+                            <button class="send-msm">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <hr>
+            <div class="creditos">
+                <div class="columna">
+                    <p>Hotel la Campiña | Cuarto "A"</p>
+                </div>
+                <div class="columna">
+                    <a class="icon-face" href="https://www.facebook.com/armando.lucas.3998/"><i
+                            class="fab fa-facebook"></i></a>
+                    <a class="icon-instagram" href="https://www.instagram.com/sf_leo._.ff/"><i
+                            class="fab fa-instagram"></i></a>
+                    <a class="icon-twitter" href="https://twitter.com/LeonelAnchundi7"><i
+                            class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+    <script src="https://kit.fontawesome.com/47dd6f5b96.js" crossorigin="anonymous"></script>
+
+    <script>
+        function iniciar() {
+            document.getElementById("emerge").style.display = "block";
+        }
+        function cerrar() {
+            document.getElementById("emerge").style.display = "none";
+        }
+        function registrar() {
+            document.getElementById("registro").style.display = "block";
+        }
+        function cerrar_registro() {
+            document.getElementById("registro").style.display = "none";
+        }
+
+        function olvido_con(){
+            document.getElementById("con").style.display="block";
+        }
+        function cerrar_con(){
+            document.getElementById("con").style.display="none";
+        }
+    </script>
+</body>
+
+</html>
